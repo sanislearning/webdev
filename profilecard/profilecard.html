@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><!-- this is where metadata is stored-->
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>Profile Card</title>
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--Boxicons CSS, ie an external stylesheet-->
+        <link 
+            href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+            rel='stylesheet'> 
+    </head>
+    <body><!--All visual content displayed on the webpage goes into this section-->
+        <div class="profile-card"><!--Div groups related content, class allows to apply CSS styles specifically to this container-->
+            <div class="image">
+                <img src="san.jpg" alt="my picture" class="profile-img"/>
+            </div>
+            
+            <div class="text-data">
+                <span class="name">Sanjay Biju</span>
+                <span class="job">UI/UX Designer</span>
+            </div>
+
+            <div class="media-buttons">
+                <a href="#" style="background: #0f3da1;" class="link">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+                <a href="#" style="background: #e1306c;"class="link">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="#" style="background:#4267b2;" class="link">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+            </div>
+            <div class="buttons">
+                <button class="button">Follow</button>
+                <button class="button">Message</button>
+            </div>
+
+        </div>
+    </body>
+</html>
